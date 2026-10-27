@@ -41,3 +41,7 @@ Frozen dependency installation, build, content/privacy audit, and syntax checks 
 See [TEST_REPORT.md](TEST_REPORT.md), [CLAIM_LEDGER.md](CLAIM_LEDGER.md), and [ASSET_MANIFEST.md](ASSET_MANIFEST.md). Automated audits supplement, rather than constitute, a complete human accessibility certification. Speech output varies by browser/device; full text is always available.
 
 After owner approval, merge/release can be a separate step. No public replacement URL is claimed yet.
+
+## Owner-supplied photographs — October 27 update
+
+Three supplied photographs are included unchanged: Cal Hacks in Field Notes and its article, London and Prague in the Travel Journal. Travel captions describe visible locations without inventing additional stories. Full photographs retain their original framing and use descriptive alt text. Development branch only; no public deployment.

@@ -34,3 +34,7 @@ Wallpaper revision: owner requested a visible Berkeley campus/Campanile. The nat
 ## Voice removed
 
 The owner rejected the cloned narration and requested a text-only FAQ instead. The generated MP3, voice player, and voice review screenshots are removed from the current branch and deployment package. No raw recording or model is shipped. Original background music remains separate; its latest autoplay/loop behavior is owner-requested.
+
+## Owner-supplied photographs — October 27 update
+
+Three supplied photographs are included unchanged: Cal Hacks in Field Notes and its article, London and Prague in the Travel Journal. Travel captions describe visible locations without inventing additional stories. Full photographs retain their original framing and use descriptive alt text. Development branch only; no public deployment.
