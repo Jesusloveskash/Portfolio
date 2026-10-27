@@ -111,6 +111,7 @@ export const ownerProfile = {
     {when:'2027',what:'Expected graduation.'}
   ],
   eventPhotos: [
+    {src:'public/assets/photos/public-speaking.jpg',alt:'Kash speaking into a microphone at a podium beside projected presentation slides.',title:'Taking the mic',caption:'Turning ideas into a conversation.'},
     {src:'public/assets/photos/open-intelligence-summit.jpg',alt:'Kash smiling beside the Open Intelligence Summit podium, with DigitalOcean and NVIDIA branding on the backdrop.',title:'Open Intelligence Summit',caption:'People, technology, and a very good reason to start a conversation.'},
     {src:'public/assets/photos/fde-event.jpg',alt:'Kash in front of a presentation titled Everything about Forward Deployed Engineering.',title:'Everything about Forward Deployed Engineering',caption:'Right at the intersection of people and technical problem-solving.'}
   ],

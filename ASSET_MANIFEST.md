@@ -42,3 +42,5 @@ Three supplied photographs are included unchanged: Cal Hacks in Field Notes and 
 Added three more owner-supplied, unchanged travel photos: Highland cow in Scotland (gallery and Scotland story), Cristo Rei in Almada, Portugal, and Eiffel Tower in Paris. Captions describe visible scenes without adding dates or invented experiences.
 
 Added owner-supplied Open Intelligence Summit and FDE event photos to Field Notes, with neutral event labels and no speaker/organizer or sponsor affiliation claims. Added the supplied Campanile portrait to Kash.txt. All three photographs retain original framing.
+
+Added the owner-supplied podium photograph to Field Notes, titled “Taking the mic.” No unverified event name, date, research topic or audience claim is attached. Original photograph retained.
