@@ -8,8 +8,8 @@ Executed in the cloud workspace with Node 24.19.0 and system Chromium. Tests use
 - `npm run check`: JS syntax, identity/claim/privacy audit, required assets.
 - `npm run build`: generated article routes and sitemap, runtime source scan, static packaging, packaged-output identity scan.
 - `npm test`: 19 verification groups, results in review/test-results.json.
-- All 20 apps open, contain useful content, and close.
-- All 20 app bodies pass the selected WCAG A/AA axe rules.
+- All 21 apps open, contain useful content, and close.
+- All 21 app bodies pass the selected WCAG A/AA axe rules.
 - Drag/maximize/restore/minimize, dock recovery, focus-return, and Escape.
 - Search finds case content; keyboard shortcut/arrows/Enter/Escape.
 - Sticky creation, literal/safe visitor text, editing, movement, reload persistence, deletion, reset, malformed-storage recovery.
@@ -39,7 +39,7 @@ A generic ARIA label on the window layer was given a proper region role; a small
 
 - Production deployment and live GitHub Pages verification are intentionally not performed: owner review is required.
 - No external journal/social availability, article attribution, peer-review status, or independent résumé metrics are claimed verified. External links are user-supplied and qualified.
-- The voice feature has been removed. The FAQ is text-only, with no microphone, agent, or narration. Original background music remains opt-in.
+- The voice feature has been removed. The FAQ is text-only, with no microphone, agent, or narration. Original background music now follows the owner’s autoplay/loop request, with browser-policy fallback and a persistent pause control.
 - File-protocol opening is not supported for the ES-module build; use the HTTP server.
 - Automated axe checks and keyboard workflows do not replace a comprehensive screen-reader/manual accessibility audit. CSS viewport reflow approximates browser 200% zoom.
 - No unavailable demos, booking service, backend form delivery, or analytics were simulated.
@@ -52,4 +52,8 @@ Owner requested the Campanile/campus in the existing warm Bay Area panorama. Rev
 
 The owner rejected the voice feature. Removed the generated MP3, narration/player, related styling and tests, voice screenshots, and the launcher. A “Quick questions?” launcher opens a text-only FAQ with eight canonical questions, categories, search, keyboard-native accordions, expand/collapse, related app links, and a contact fallback.
 
-`npm run check`, `npm run build`, `npm run test:faq`, `npm run test:release`, and the full 19-group browser suite pass. FAQ-specific checks verify search/categories, keyboard Enter, expand/collapse, empty results, related contact links, desktop and narrow mobile layouts, no voice requests or player, and a missing generated clip in both the served site and packaged output. All 20 app bodies pass the automated accessibility audit.
+`npm run check`, `npm run build`, `npm run test:faq`, `npm run test:release`, and the full 19-group browser suite pass. FAQ-specific checks verify search/categories, keyboard Enter, expand/collapse, empty results, related contact links, desktop and narrow mobile layouts, no voice requests or player, and a missing generated clip in both the served site and packaged output. All 21 app bodies pass the automated accessibility audit.
+
+## Music, calendar, travel, and project updates
+
+The full 19-group browser suite passes with all 21 apps, eight projects, and the expanded FAQ. `npm run test:personalization` additionally exercises actual autoplay in an allowing browser; blocked-autoplay fallback on first interaction; real transitions across both track endings and wraparound; manual pause without restart; a persistent 44px phone sound control; audio byte-range responses; calendar month/keyboard navigation; date/time/zone/duration email-body encoding; no automatic booking/sending claim; selected-proposal accessibility; mobile calendar layout; Travel Journal filters and story navigation; Instagram; Cinderella and FreeNow source qualifications. The private diary is not packaged. FreeNow’s own 22 tests are reported by its owner and were not executed here.

@@ -19,7 +19,7 @@ Day, Night, and Dark treatments are explicitly authorized variations of the new 
 - music/a-good-conversation.ogg and music/the-scenic-route.ogg: 32-second original synthesized instrumental sketches.
 - Generated locally by tools/compose_music.py using mathematical oscillators and original note/chord arrangements; no samples, commercial recordings, or external melodies.
 - Audio and composition supplied under CC0; no attribution required. Not a claim about third-party music rights.
-- Playback always opt-in; no sound or speech during boot. Volume only is persisted.
+- Owner’s latest request enables automatic playback where browser policy permits, first-interaction fallback otherwise, and continuous two-track looping. Manual pause is honored; volume only is persisted.
 
 ## Fonts
 
@@ -33,4 +33,4 @@ Wallpaper revision: owner requested a visible Berkeley campus/Campanile. The nat
 
 ## Voice removed
 
-The owner rejected the cloned narration and requested a text-only FAQ instead. The generated MP3, voice player, and voice review screenshots are removed from the current branch and deployment package. No raw recording or model is shipped. Original background music remains separate and opt-in.
+The owner rejected the cloned narration and requested a text-only FAQ instead. The generated MP3, voice player, and voice review screenshots are removed from the current branch and deployment package. No raw recording or model is shipped. Original background music remains separate; its latest autoplay/loop behavior is owner-requested.

@@ -26,13 +26,14 @@ npm test
 # Optional packaged /Portfolio/ check (Python 3 required for its local static server):
 npm run test:release
 npm run test:faq
+npm run test:personalization
 ```
 
 `npm run build` regenerates the three crawlable field notes and SEO files, audits content/identity, and prepares `dist/` containing only the static site. It does not publish. `npm test` launches its own local server and Chromium, exercises the actual workflow, runs axe accessibility checks, and saves current screenshots/results in `/tmp/kash-os-qa`. System Chromium defaults to `/usr/bin/chromium`; override `CHROMIUM_PATH` on other machines, or install Playwright Chromium and set its executable path. Tests require a working browser. They cover nine viewports from 320×568 through 1920×1080.
 
 ## What’s inside
 
-20 applications: Projects, Experience, Journey, Field Notes, Contact, Proof, Kash Browser, Systems, Kash.txt, Case Files, Achievements, Calendar, FAQ, Whiteboard, Side Quest game, Personalize, Music, Reading Room, and All Apps. Draggable/minimizable/maximizable windows, dock restore, keyboard search, three themes, persistent notes, resettable layouts, and Pip the original companion.
+21 applications: Projects, Experience, Journey, Travel Journal, Field Notes, Contact, Proof, Kash Browser, Systems, Kash.txt, Socials, Case Files, Achievements, Calendar, FAQ, Whiteboard, Side Quest game, Personalize, Music, Reading Room, and All Apps. Draggable/minimizable/maximizable windows, dock restore, keyboard search, three themes, persistent notes, resettable layouts, and Pip the original companion.
 
 - `content/owner-profile.js`: canonical biography, projects, résumé sources, evidence qualifications, stories, FAQ answers, links, and working method.
 - `content/apps.js`: launcher and dock registry.
@@ -53,7 +54,15 @@ Whiteboard notes can be added/edited/deleted, dragged on desktop, or moved with 
 
 The text-only FAQ replaces the removed voice feature. “Quick questions?” opens it from the desktop. Search questions, filter by Work/Projects/About me/Contact, expand/collapse answers, or follow a related project/contact link. Questions and answers live in `ownerProfile.faq`. There is no voice model, narration file, microphone, speech service, or chatbot in the site.
 
-Music contains two original 32-second synthesized instrumental sketches, no samples or commercial songs, released under CC0. Play/pause, previous/next, seek, volume, and failure states work without autoplay. Closing the player leaves explicitly started music playing; reopen and Pause to stop. Only volume persists, never forced playback. Music sources: `tools/compose_music.py`; rebuilding audio requires Python 3 and ffmpeg, ordinary development does not.
+Music contains two original 32-second synthesized instrumental sketches, no samples or commercial songs, released under CC0. At the owner’s request it attempts playback on arrival and loops through both tracks. When a browser blocks autoplay, the first eligible click/key starts playback. A clearly labeled play/pause button stays visible beside the dock on desktop and phone; a manual pause is respected for the rest of that visit. Volume persists locally, playback preference does not. Closing the Music window leaves playback running. The local server supplies content lengths and byte ranges for reliable duration/seeking.
+
+## Calendar and travel
+
+Calendar visitors can select today or a future date, choose a proposed time, time zone and meeting length, and open an encoded email draft addressed to Kash. No availability feed, booking, automatic message sending, private schedule, or form backend is implied. Proposal details are held only in the open window. Public milestones remain available separately.
+
+Travel Journal contains eight edited, public-friendly stories from the owner’s supplied diary. Private names/contact details, health, finances, intimate material, and other people’s personal stories are omitted. No travel photos are invented. Instagram links to the owner-supplied @510_kash; there are no social embeds or tracking scripts.
+
+Cinderella and FreeNow now show the owner’s current demo scope and stacks as in-development work. FreeNow’s production build and 22 passing tests are owner-reported, not rerun in this portfolio checkout. Live integrations and deployment validation remain outstanding.
 
 ## Accuracy and privacy
 

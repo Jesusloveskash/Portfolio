@@ -17,14 +17,17 @@ npm run dev
 
 Open `http://localhost:3000` in your browser. Node 20+ required. Do not double-click index.html; the app uses JavaScript modules and needs a local HTTP server.
 
-Start with Projects, then open Kash.txt, Field Notes, or the Whiteboard. Ctrl/Cmd+K searches. Minimize a window and restore it from the dock. Try themes in Personalize. Music is opt-in; FAQ provides searchable, categorized answers and links to relevant work. The voice feature and generated clip have been removed.
+Start with Projects, then open Kash.txt, Field Notes, or the Whiteboard. Ctrl/Cmd+K searches. Minimize a window and restore it from the dock. Try themes in Personalize. Music attempts to start on arrival (or first interaction if blocked), loops, and has a persistent pause control; FAQ provides searchable, categorized answers and links to relevant work. The voice feature and generated clip have been removed.
 
 [Text-only FAQ](review/faq.png) · [Phone FAQ](review/faq-mobile.png)
+
+[Email-a-time calendar](review/calendar.png) · [Travel Journal](review/travel.png)
 
 ## Review points
 
 - Illustrated likeness, Pip, original app icons, and background art.
-- Project descriptions and their limits/attribution.
+- Cinderella and FreeNow demo descriptions and their in-development limits/attribution.
+- Calendar email drafts (proposals, not bookings), looping soundtrack, and curated Travel Journal.
 - All reported metrics remain qualified rather than independently verified.
 - Phone-free web résumé preserves qualifications; the private original upload is untouched.
 - Client-facing positioning, travel personality, and the balance of professional proof with side quests.
@@ -33,7 +36,7 @@ No booking notifications, commercial songs, phone contact links, tracking, trans
 
 ## Validation
 
-Frozen dependency installation, build, content/privacy audit, and syntax checks pass. Browser suite: 19 verification groups including all 20 applications, all-app automated WCAG AA checks, Day/Night/Dark desktop checks, mobile Projects accessibility, nine viewport sizes, window management, search, persistent notes, folders, game, original audio, companion, malformed storage, and public route checks. Clean review screenshots additionally verify that companion bubbles stay clear of phone app content.
+Frozen dependency installation, build, content/privacy audit, and syntax checks pass. Browser suite: 19 verification groups including all 21 applications, all-app automated WCAG AA checks, Day/Night/Dark desktop checks, mobile Projects accessibility, nine viewport sizes, window management, search, persistent notes, folders, game, original audio, companion, malformed storage, and public route checks. Clean review screenshots additionally verify that companion bubbles stay clear of phone app content.
 
 See [TEST_REPORT.md](TEST_REPORT.md), [CLAIM_LEDGER.md](CLAIM_LEDGER.md), and [ASSET_MANIFEST.md](ASSET_MANIFEST.md). Automated audits supplement, rather than constitute, a complete human accessibility certification. Speech output varies by browser/device; full text is always available.
 

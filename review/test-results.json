@@ -1,14 +1,14 @@
 {
   "results": [
     "Boot skips and desktop loads",
-    "All 20 applications open, contain useful content, and close",
-    "All 20 application bodies pass automated WCAG AA checks",
+    "All 21 applications open, contain useful content, and close",
+    "All 21 application bodies pass automated WCAG AA checks",
     "Project filters, case details, qualifications, and back navigation",
     "Window drag, maximize, restore, minimize, and dock recovery",
     "Search finds case content, keyboard shortcut, Enter, Escape, and focus return",
     "Sticky creation, safe text, editing, movement, reload persistence, deletion, and reset",
-    "Browser bookmarks/back/forward/home and scripted voice guide/fallback",
-    "Original audio is opt-in; play, pause, previous, and next work",
+    "Browser bookmarks/back/forward/home and searchable FAQ and expand-all",
+    "Original soundtrack play, pause, previous, and next work",
     "Companion tap/state, keyboard movement, safe positioning, reset",
     "Case folders, history, preview, list/card view, and original game turns/reset",
     "Desktop icon dragging, persistence, reload, and reset",

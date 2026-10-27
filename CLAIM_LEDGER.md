@@ -13,7 +13,10 @@ Owner/approver: Kash Vinayak. Source review: build session, October 2026. Exact 
 | 35–40 students in workshops | October 24 résumé | Pending independent verification | Proof; explicit source and qualification |
 | Berkeley Lab data analysis, climate metrics, research website | Supplied résumés | Owner-reported | Projects and Experience; not conflated with cancer writing |
 | Change Please impact data cleaning and Tableau dashboards | October 24 résumé | Owner-reported | Projects/Experience; no quantified organizational result |
-| FreeNow campus social app | Owner brief and intake | Concept | Projects; explicitly no launch or active users |
+| FreeNow campus social app, interactive demo, Next.js/React/TypeScript/Tailwind/Supabase | Latest owner project update | Owner-reported, in development | Live auth/realtime/deployment not yet verified; production build and 22 tests reported by owner, not rerun here |
+| Cinderella anonymous-first dating app and interactive demo | Latest owner project update | Owner-reported, in development | Initial Berkeley audience, future expansion planned; Supabase migrations/access controls implemented, live integrations await validation |
+| Eight curated travel stories | Owner-supplied private travel diary | Edited first-person recollections | Travel Journal; no private diary attachment, third-party contact details, health/financial/intimate information, or precise future itinerary |
+| Instagram @510_kash | Owner supplied handle | Owner-approved link | Socials, Contact, Travel Journal; no account metrics, embeds, or independently verified follower claims |
 | 2nd place FDE competition at SF Tech Week | October 24 résumé | Owner-reported | Achievements; independently unverified |
 | Tennyson valedictorian | Supplied résumés | Owner-reported | Achievements; no GPA/transcript publication |
 | Teens in Health cancer research writing contribution | Earlier résumé and owner intake | Owner-reported external reference | Reading Room; attribution, availability, and peer-review not independently verified; no peer-review claim |
