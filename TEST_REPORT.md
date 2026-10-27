@@ -15,7 +15,7 @@ Executed in the cloud workspace with Node 24.19.0 and system Chromium. Tests use
 - Sticky creation, literal/safe visitor text, editing, movement, reload persistence, deletion, reset, malformed-storage recovery.
 - Case folders, breadcrumbs/history, preview, list/card views, and back to case listing.
 - Browser bookmark navigation, back, forward, refresh/home behavior.
-- Scripted voice topic answers and honest unsupported-question fallback.
+- Searchable FAQ questions, category filters, accordion answers, expand-all, and honest empty states.
 - Original music actual playback, pause, previous, next; playback starts only with user interaction.
 - Companion click/mood, keyboard position change, bounds/reset; supplemental screenshot run checks no bubble over phone app content.
 - Desktop icon movement, local persistence/reload, and reset.
@@ -29,7 +29,7 @@ Executed in the cloud workspace with Node 24.19.0 and system Chromium. Tests use
 
 ## Supplemental packaged-release verification
 
-`npm run test:release` serves the packaged dist site locally under `/Portfolio/`, matching the GitHub Pages project path. It verifies module/asset loading, static article navigation and OS hash restoration, search arrow navigation, browser refresh, opt-in cloned introduction and pause controls, and audio volume/seek. This is a local release simulation, not a public deployment.
+`npm run test:release` serves the packaged dist site locally under `/Portfolio/`, matching the GitHub Pages project path. It verifies module/asset loading, static article navigation and OS hash restoration, search arrow navigation, browser refresh, text-only FAQ search and answers, and audio volume/seek. This is a local release simulation, not a public deployment.
 
 ## Earlier failures resolved
 
@@ -39,7 +39,7 @@ A generic ARIA label on the window layer was given a proper region role; a small
 
 - Production deployment and live GitHub Pages verification are intentionally not performed: owner review is required.
 - No external journal/social availability, article attribution, peer-review status, or independent résumé metrics are claimed verified. External links are user-supplied and qualified.
-- The introduction is a pre-generated AI voice clone, not a live agent. Media failure retains a full transcript. No microphone or conversational inference service exists.
+- The voice feature has been removed. The FAQ is text-only, with no microphone, agent, or narration. Original background music remains opt-in.
 - File-protocol opening is not supported for the ES-module build; use the HTTP server.
 - Automated axe checks and keyboard workflows do not replace a comprehensive screen-reader/manual accessibility audit. CSS viewport reflow approximates browser 200% zoom.
 - No unavailable demos, booking service, backend form delivery, or analytics were simulated.
@@ -48,8 +48,8 @@ A generic ARIA label on the window layer was given a proper region role; a small
 
 Owner requested the Campanile/campus in the existing warm Bay Area panorama. Revised wallpaper generated natively, optimized, and inspected in Day/Night/Dark desktop and phone screenshots. The phone crop retains Berkeley. `npm run build`, `npm run check`, and the clean desktop/mobile review screenshot script pass after the asset-only revision. Existing app behavior is unchanged; the full interaction suite was not redundantly rerun for this wallpaper change.
 
-## Cloned-introduction integration
+## FAQ replacement
 
-The user accepted the free pre-generated introduction plus scripted text guide. Added a 13-second, opt-in MP3 labeled AI-generated, transcript, and “Hear from Kash” launcher. Raw references, conditioning audio, models, and generation logs remain outside the repository. Closing/minimizing pauses narration; narration and music pause each other. Scripted answers are text-only.
+The owner rejected the voice feature. Removed the generated MP3, narration/player, related styling and tests, voice screenshots, and the launcher. A “Quick questions?” launcher opens a text-only FAQ with eight canonical questions, categories, search, keyboard-native accordions, expand/collapse, related app links, and a contact fallback.
 
-`npm run check`, `npm run build`, the full 19-group browser suite (including all 20 app accessibility checks and nine viewports), and the packaged /Portfolio/ release checks pass. `npm run test:voice` separately exercises real playback, no autoplay, AI disclosure/transcript, minimize/close pause, music coordination, desktop/phone layout, audio MIME, and an actual aborted media request with persistent transcript fallback. An error-state race was fixed so a trailing pause event cannot hide the load-error message.
+`npm run check`, `npm run build`, `npm run test:faq`, `npm run test:release`, and the full 19-group browser suite pass. FAQ-specific checks verify search/categories, keyboard Enter, expand/collapse, empty results, related contact links, desktop and narrow mobile layouts, no voice requests or player, and a missing generated clip in both the served site and packaged output. All 20 app bodies pass the automated accessibility audit.

@@ -13,7 +13,7 @@
     "check": "node --check server.mjs && node --check script.js && node --check content/owner-profile.js && node --check content/apps.js && node tools/audit.mjs",
     "test": "node tests/browser.mjs",
     "test:release": "node tests/release.mjs",
-    "test:voice": "node tests/voice.mjs"
+    "test:faq": "node tests/faq.mjs"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.14.0",

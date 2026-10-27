@@ -25,3 +25,5 @@ Reference identity purge: no external source OS identity exists; sample names/br
 Outstanding: final owner review of assets/rebuild; independently verified research metrics; actual project demos/media (omit unavailable links); public deployment not authorized.
 
 Follow-up voice scope: owner supplied her own recording and accepted a free, pre-generated cloned introduction plus scripted text guide. Add only the generated opt-in introduction to the kash-os review branch, labeled AI-generated with a transcript. No raw samples, live conversational agent, inference backend, paid API, main merge, or public replacement deployment.
+
+Superseding owner request: remove the voice feature and replace it with a text-only FAQ. Remove generated narration from current source/assets/package; no speech playback, voice agent, or chatbot. Background music remains unrelated and opt-in. Main/deployment approval boundary remains.

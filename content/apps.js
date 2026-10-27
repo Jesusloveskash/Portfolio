@@ -12,7 +12,7 @@ export const apps = [
 {id:'cases',name:'Case Files',desc:'Open the details',icon:9},
 {id:'achievements',name:'Achievements',desc:'A few proud moments',icon:10},
 {id:'calendar',name:'Calendar',desc:'Milestones, not meetings',icon:11},
-{id:'voice',name:'Voice Guide',desc:'A spoken introduction',icon:12},
+{id:'faq',name:'FAQ',desc:'The quick answers',icon:8},
 {id:'whiteboard',name:'Whiteboard',desc:'Room to think out loud',icon:13,dock:true},
 {id:'game',name:'Side Quest',desc:'Make a few connections',icon:14},
 {id:'settings',name:'Personalize',desc:'Themes, Pip & resets',icon:15,dock:true},

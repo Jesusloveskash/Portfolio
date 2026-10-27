@@ -25,16 +25,16 @@ npm run build
 npm test
 # Optional packaged /Portfolio/ check (Python 3 required for its local static server):
 npm run test:release
-npm run test:voice
+npm run test:faq
 ```
 
 `npm run build` regenerates the three crawlable field notes and SEO files, audits content/identity, and prepares `dist/` containing only the static site. It does not publish. `npm test` launches its own local server and Chromium, exercises the actual workflow, runs axe accessibility checks, and saves current screenshots/results in `/tmp/kash-os-qa`. System Chromium defaults to `/usr/bin/chromium`; override `CHROMIUM_PATH` on other machines, or install Playwright Chromium and set its executable path. Tests require a working browser. They cover nine viewports from 320×568 through 1920×1080.
 
 ## What’s inside
 
-20 applications: Projects, Experience, Journey, Field Notes, Contact, Proof, Kash Browser, Systems, Kash.txt, Case Files, Achievements, Calendar, Voice Guide, Whiteboard, Side Quest game, Personalize, Music, Reading Room, and All Apps. Draggable/minimizable/maximizable windows, dock restore, keyboard search, three themes, persistent notes, resettable layouts, and Pip the original companion.
+20 applications: Projects, Experience, Journey, Field Notes, Contact, Proof, Kash Browser, Systems, Kash.txt, Case Files, Achievements, Calendar, FAQ, Whiteboard, Side Quest game, Personalize, Music, Reading Room, and All Apps. Draggable/minimizable/maximizable windows, dock restore, keyboard search, three themes, persistent notes, resettable layouts, and Pip the original companion.
 
-- `content/owner-profile.js`: canonical biography, projects, résumé sources, evidence qualifications, stories, voice answers, links, and working method.
+- `content/owner-profile.js`: canonical biography, projects, résumé sources, evidence qualifications, stories, FAQ answers, links, and working method.
 - `content/apps.js`: launcher and dock registry.
 - `index.html`, `style.css`, `script.js`: first-paint desktop, styling, and interaction/window manager.
 - `public/assets/`: local fonts/licenses, generated illustration sheets, original music, supplied résumé.
@@ -49,11 +49,9 @@ Pip can be clicked, moved with arrow keys while focused, or dragged on desktop. 
 
 Whiteboard notes can be added/edited/deleted, dragged on desktop, or moved with labeled arrow buttons. Notes are local-only, capped at 400 characters and 30 notes, never transmitted to Kash. Reset and clear-data actions are available.
 
-## Voice and music
+## FAQ and music
 
-Voice Guide contains an optional **13-second AI-generated introduction in Kash’s cloned voice**, followed by scripted **text-only** portfolio answers. “Hear from Kash” opens it from the desktop. The introduction is pre-generated with the free MIT-licensed Chatterbox Nano model using Kash’s supplied recording; no cloning model, raw voice reference, inference server, microphone, or API key is shipped. Playback is off until Play, the transcript is available, and closing/minimizing pauses it. Narration and background music pause each other to avoid overlapping audio. A load error leaves the full transcript and text guide available.
-
-This is **not a conversational AI agent or Kash responding live**. Topic matching is limited and unmatched questions get an honest fallback. The raw reference and generation workspace stay outside this repository.
+The text-only FAQ replaces the removed voice feature. “Quick questions?” opens it from the desktop. Search questions, filter by Work/Projects/About me/Contact, expand/collapse answers, or follow a related project/contact link. Questions and answers live in `ownerProfile.faq`. There is no voice model, narration file, microphone, speech service, or chatbot in the site.
 
 Music contains two original 32-second synthesized instrumental sketches, no samples or commercial songs, released under CC0. Play/pause, previous/next, seek, volume, and failure states work without autoplay. Closing the player leaves explicitly started music playing; reopen and Pause to stop. Only volume persists, never forced playback. Music sources: `tools/compose_music.py`; rebuilding audio requires Python 3 and ffmpeg, ordinary development does not.
 
@@ -67,7 +65,7 @@ No approved public demos/repositories for individual employer projects were supp
 
 Repository: https://github.com/Jesusloveskash/Portfolio, branch `kash-os`. Original main stays intact. Final owner approval is required for the illustrated likeness/assets, content, and replacement release. No public preview or production deployment is performed by this build.
 
-After approval, publish `dist/` using GitHub Pages or merge the reviewed site to the configured Pages source. Canonical base is `https://jesusloveskash.github.io/Portfolio/`; assets use relative paths so the project subdirectory works. Keep `.nojekyll` in the published directory. Check the live site, résumé, article routes, voice fallback, and audio after deployment. Custom domain, DNS, and a real AI voice-provider integration are not configured.
+After approval, publish `dist/` using GitHub Pages or merge the reviewed site to the configured Pages source. Canonical base is `https://jesusloveskash.github.io/Portfolio/`; assets use relative paths so the project subdirectory works. Keep `.nojekyll` in the published directory. Check the live site, résumé, article routes, FAQ navigation and music after deployment. Custom domain, DNS, and a real AI voice-provider integration are not configured.
 
 ## License
 
