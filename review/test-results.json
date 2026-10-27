@@ -11,7 +11,7 @@
     "Original soundtrack play, pause, previous, and next work",
     "Companion tap/state, keyboard movement, safe positioning, reset",
     "Case folders, history, preview, list/card view, and original game turns/reset",
-    "Desktop icon dragging, persistence, reload, and reset",
+    "Five stable section cards and layout reset",
     "Day/Night/Dark theme switching and automated WCAG AA desktop audit",
     "Nine required viewport sizes: desktop reflow, phone apps, case content, no horizontal overflow, window bounds",
     "Automated mobile and open-project accessibility audits",

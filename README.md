@@ -79,3 +79,9 @@ After approval, publish `dist/` using GitHub Pages or merge the reviewed site to
 ## License
 
 Application code: MIT, see LICENSE. Original synthesized music: CC0. Font licenses are bundled. Original generated illustrations are provided for Kash’s portfolio and await her final review; source-generation provenance is documented in ASSET_MANIFEST.md. The résumé, personal likeness, and biographical content are not licensed for unrelated impersonation or reuse.
+
+## Navigation consolidation
+
+Five large homepage sections replace the nine scattered desktop launchers: Work (projects, experience, skills, résumé/research), About (introduction/FAQ), Journey (story/highlights), Life (events, field notes, travel/photos), and Contact (email/calendar/socials). Persistent section and page navigation switches the current window, keeping related content together. All 21 apps remain available under Extras & all apps. Desktop section cards are fixed for predictable navigation; window dragging and daily-widget layout remain available.
+
+`npm run test:navigation` verifies all grouped pages, keyboard switching, one-window transitions, four viewport widths, retained projects, and automated WCAG A/AA checks. Review images: `review/organized-desktop.png` and `review/organized-mobile.png`.

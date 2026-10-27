@@ -57,3 +57,9 @@ The owner rejected the voice feature. Removed the generated MP3, narration/playe
 ## Music, calendar, travel, and project updates
 
 The full 19-group browser suite passes with all 21 apps, eight projects, and the expanded FAQ. `npm run test:personalization` additionally exercises actual autoplay in an allowing browser; blocked-autoplay fallback on first interaction; real transitions across both track endings and wraparound; manual pause without restart; a persistent 44px phone sound control; audio byte-range responses; calendar month/keyboard navigation; date/time/zone/duration email-body encoding; no automatic booking/sending claim; selected-proposal accessibility; mobile calendar layout; Travel Journal filters and story navigation; Instagram; Cinderella and FreeNow source qualifications. The private diary is not packaged. FreeNow’s own 22 tests are reported by its owner and were not executed here.
+
+## Navigation consolidation
+
+Five large homepage sections replace the nine scattered desktop launchers: Work (projects, experience, skills, résumé/research), About (introduction/FAQ), Journey (story/highlights), Life (events, field notes, travel/photos), and Contact (email/calendar/socials). Persistent section and page navigation switches the current window, keeping related content together. All 21 apps remain available under Extras & all apps. Desktop section cards are fixed for predictable navigation; window dragging and daily-widget layout remain available.
+
+`npm run test:navigation` verifies all grouped pages, keyboard switching, one-window transitions, four viewport widths, retained projects, and automated WCAG A/AA checks. Review images: `review/organized-desktop.png` and `review/organized-mobile.png`.

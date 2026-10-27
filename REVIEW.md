@@ -53,3 +53,9 @@ Added owner-supplied Open Intelligence Summit and FDE event photos to Field Note
 Added the owner-supplied podium photograph to Field Notes, titled “Taking the mic.” No unverified event name, date, research topic or audience claim is attached. Original photograph retained.
 
 Added owner-supplied graduation photograph to Journey as “Graduation day. A chapter worth celebrating.” No unconfirmed school or date is assigned; Berkeley graduation remains upcoming in 2027.
+
+## Navigation consolidation
+
+Five large homepage sections replace the nine scattered desktop launchers: Work (projects, experience, skills, résumé/research), About (introduction/FAQ), Journey (story/highlights), Life (events, field notes, travel/photos), and Contact (email/calendar/socials). Persistent section and page navigation switches the current window, keeping related content together. All 21 apps remain available under Extras & all apps. Desktop section cards are fixed for predictable navigation; window dragging and daily-widget layout remain available.
+
+`npm run test:navigation` verifies all grouped pages, keyboard switching, one-window transitions, four viewport widths, retained projects, and automated WCAG A/AA checks. Review images: `review/organized-desktop.png` and `review/organized-mobile.png`.
