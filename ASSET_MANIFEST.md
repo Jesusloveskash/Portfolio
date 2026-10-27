@@ -44,3 +44,5 @@ Added three more owner-supplied, unchanged travel photos: Highland cow in Scotla
 Added owner-supplied Open Intelligence Summit and FDE event photos to Field Notes, with neutral event labels and no speaker/organizer or sponsor affiliation claims. Added the supplied Campanile portrait to Kash.txt. All three photographs retain original framing.
 
 Added the owner-supplied podium photograph to Field Notes, titled “Taking the mic.” No unverified event name, date, research topic or audience claim is attached. Original photograph retained.
+
+Added owner-supplied graduation photograph to Journey as “Graduation day. A chapter worth celebrating.” No unconfirmed school or date is assigned; Berkeley graduation remains upcoming in 2027.
