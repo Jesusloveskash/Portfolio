@@ -63,3 +63,11 @@ The full 19-group browser suite passes with all 21 apps, eight projects, and the
 Five large homepage sections replace the nine scattered desktop launchers: Work (projects, experience, skills, résumé/research), About (introduction/FAQ), Journey (story/highlights), Life (events, field notes, travel/photos), and Contact (email/calendar/socials). Persistent section and page navigation switches the current window, keeping related content together. All 21 apps remain available under Extras & all apps. Desktop section cards are fixed for predictable navigation; window dragging and daily-widget layout remain available.
 
 `npm run test:navigation` verifies all grouped pages, keyboard switching, one-window transitions, four viewport widths, retained projects, and automated WCAG A/AA checks. Review images: `review/organized-desktop.png` and `review/organized-mobile.png`.
+
+## Project directory readability
+
+The overview now uses a single-column directory grouped into Selected work, Building now, and Research & data. Organization/product names lead each entry, followed by a concise summary, actual deliverables, role/dates, tools, and an accurate status. Entire entries open case details. Search and filter state persist when returning from a case; unmatched searches have a reset action. Concept artwork stays in case details rather than dominating the overview.
+
+`npm run test:projects` checks grouping, search, filters, empty state, keyboard opening, back-state retention, phone/desktop bounds, and all three themes with WCAG A/AA scans.
+
+Next useful owner assets: real Cinderella/FreeNow interface screenshots and approved repository/demo URLs, plus a specific walkthrough of a user flow. No unprovided links, screenshots, or additional outcome metrics were invented.

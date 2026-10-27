@@ -24,6 +24,16 @@ export const ownerProfile = {
     {value:'50+',label:'research publications checked',status:'founder-reported',source:'Supplied technical résumé: JBEI',public:true,disclaimer:'Résumé-reported scope; not independently verified.'},
     {value:'35–40',label:'incoming students in workshops',status:'founder-reported',source:'October 24 résumé: CDSS',public:true,disclaimer:'Résumé-reported scope; not independently verified.'}
   ],
+  projectOverviews: {
+    farallon:{summary:'Python and Streamlit tools for financial reconciliation and pricing checks.',deliverable:'Internal dashboards & investigation tools',status:'Internship work'},
+    scam:{summary:'A browser-automation tool for investigating suspicious sites and crypto addresses.',deliverable:'AI-assisted investigation prototype',status:'Technical challenge'},
+    savorly:{summary:'A student surplus-meal app shaped by user research, design, and development.',deliverable:'Mobile app features & product design',status:'Product contribution'},
+    jbei:{summary:'Cleaning and organizing microbial strain records for a modern database.',deliverable:'Scientific metadata & migration preparation',status:'Research contribution'},
+    'berkeley-lab':{summary:'Scientific data analysis, visualization, and a website to explain the research.',deliverable:'Python analysis & research communication',status:'Research contribution'},
+    'change-please':{summary:'Impact dashboards and cleaner datasets for stakeholder decisions.',deliverable:'Tableau dashboards & reporting datasets',status:'Analyst work'},
+    cinderella:{summary:'An anonymous-first dating app that puts conversation before photos.',deliverable:'Interactive demo, database migrations & access controls',status:'In development'},
+    freenow:{summary:'A campus social app for spontaneous coffee, study sessions, and hangouts.',deliverable:'Interactive demo & hangout flows',status:'In development'}
+  },
   projects: [
     {id:'farallon',name:'Making the numbers make sense',client:'Farallon Capital Management',category:'Finance & engineering',role:'Trading Ops FDE Intern',dates:'May–Sep 2026',status:'Internship contribution',image:'public/assets/projects/cases.webp',
       problem:'Daily P&L verification, pricing checks, and financial reconciliation require careful investigation across systems.',

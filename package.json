@@ -15,7 +15,8 @@
     "test:release": "node tests/release.mjs",
     "test:faq": "node tests/faq.mjs",
     "test:personalization": "node tests/personalization.mjs",
-    "test:navigation": "node tests/navigation.mjs"
+    "test:navigation": "node tests/navigation.mjs",
+    "test:projects": "node tests/projects.mjs"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.14.0",
