@@ -40,3 +40,5 @@ The owner rejected the cloned narration and requested a text-only FAQ instead. T
 Three supplied photographs are included unchanged: Cal Hacks in Field Notes and its article, London and Prague in the Travel Journal. Travel captions describe visible locations without inventing additional stories. Full photographs retain their original framing and use descriptive alt text. Development branch only; no public deployment.
 
 Added three more owner-supplied, unchanged travel photos: Highland cow in Scotland (gallery and Scotland story), Cristo Rei in Almada, Portugal, and Eiffel Tower in Paris. Captions describe visible scenes without adding dates or invented experiences.
+
+Added owner-supplied Open Intelligence Summit and FDE event photos to Field Notes, with neutral event labels and no speaker/organizer or sponsor affiliation claims. Added the supplied Campanile portrait to Kash.txt. All three photographs retain original framing.

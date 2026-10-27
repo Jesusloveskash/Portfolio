@@ -110,6 +110,10 @@ export const ownerProfile = {
     {when:'October 2026',what:'Cal Hacks and technical challenge work.'},
     {when:'2027',what:'Expected graduation.'}
   ],
+  eventPhotos: [
+    {src:'public/assets/photos/open-intelligence-summit.jpg',alt:'Kash smiling beside the Open Intelligence Summit podium, with DigitalOcean and NVIDIA branding on the backdrop.',title:'Open Intelligence Summit',caption:'People, technology, and a very good reason to start a conversation.'},
+    {src:'public/assets/photos/fde-event.jpg',alt:'Kash in front of a presentation titled Everything about Forward Deployed Engineering.',title:'Everything about Forward Deployed Engineering',caption:'Right at the intersection of people and technical problem-solving.'}
+  ],
   travelPhotos: [
     {src:'public/assets/photos/london.jpg',alt:'Kash beside the Thames with Big Ben and Westminster behind her.',place:'London, England',caption:'A moment by the Thames.'},
     {src:'public/assets/photos/prague.jpg',alt:'Kash smiling on a Prague street beneath an I love Prague sign.',place:'Prague, Czechia',caption:'The sign says it pretty well.'},
