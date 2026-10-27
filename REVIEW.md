@@ -17,7 +17,9 @@ npm run dev
 
 Open `http://localhost:3000` in your browser. Node 20+ required. Do not double-click index.html; the app uses JavaScript modules and needs a local HTTP server.
 
-Start with Projects, then open Kash.txt, Field Notes, or the Whiteboard. Ctrl/Cmd+K searches. Minimize a window and restore it from the dock. Try themes in Personalize. Music is opt-in; Voice Guide is a scripted, synthetic spoken portfolio tour with no microphone or generative AI service.
+Start with Projects, then open Kash.txt, Field Notes, or the Whiteboard. Ctrl/Cmd+K searches. Minimize a window and restore it from the dock. Try themes in Personalize. Music is opt-in; Voice Guide contains an optional AI-generated introduction in Kash’s cloned voice, followed by scripted text answers. No microphone, live conversation, or runtime AI service.
+
+[AI introduction and text guide](review/voice-guide.png) · [Phone voice guide](review/voice-guide-mobile.png)
 
 ## Review points
 

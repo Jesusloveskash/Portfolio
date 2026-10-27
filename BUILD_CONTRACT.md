@@ -23,3 +23,5 @@ Required behavior: keyboard-operable windows with drag/minimize/maximize/restore
 Reference identity purge: no external source OS identity exists; sample names/brands from specification (RajNet, UK Realty, Investors Propmart, Imperium Marketing) must not ship. No automatic domain greeting. Domain only in metadata/contact.
 
 Outstanding: final owner review of assets/rebuild; independently verified research metrics; actual project demos/media (omit unavailable links); public deployment not authorized.
+
+Follow-up voice scope: owner supplied her own recording and accepted a free, pre-generated cloned introduction plus scripted text guide. Add only the generated opt-in introduction to the kash-os review branch, labeled AI-generated with a transcript. No raw samples, live conversational agent, inference backend, paid API, main merge, or public replacement deployment.

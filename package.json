@@ -12,7 +12,8 @@
     "build": "node tools/generate_pages.mjs && node tools/audit.mjs && node tools/package.mjs",
     "check": "node --check server.mjs && node --check script.js && node --check content/owner-profile.js && node --check content/apps.js && node tools/audit.mjs",
     "test": "node tests/browser.mjs",
-    "test:release": "node tests/release.mjs"
+    "test:release": "node tests/release.mjs",
+    "test:voice": "node tests/voice.mjs"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.14.0",

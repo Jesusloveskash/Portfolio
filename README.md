@@ -25,6 +25,7 @@ npm run build
 npm test
 # Optional packaged /Portfolio/ check (Python 3 required for its local static server):
 npm run test:release
+npm run test:voice
 ```
 
 `npm run build` regenerates the three crawlable field notes and SEO files, audits content/identity, and prepares `dist/` containing only the static site. It does not publish. `npm test` launches its own local server and Chromium, exercises the actual workflow, runs axe accessibility checks, and saves current screenshots/results in `/tmp/kash-os-qa`. System Chromium defaults to `/usr/bin/chromium`; override `CHROMIUM_PATH` on other machines, or install Playwright Chromium and set its executable path. Tests require a working browser. They cover nine viewports from 320×568 through 1920×1080.
@@ -50,7 +51,9 @@ Whiteboard notes can be added/edited/deleted, dragged on desktop, or moved with 
 
 ## Voice and music
 
-Voice Guide is **scripted**, not an LLM, live agent, microphone service, or owner voice clone. It matches a small set of topics and can read reviewed answers using the browser’s speech synthesis only after a click. Unsupported speech has a complete text fallback. The OS/browser may use its own voice service. No API key or recording is involved.
+Voice Guide contains an optional **13-second AI-generated introduction in Kash’s cloned voice**, followed by scripted **text-only** portfolio answers. “Hear from Kash” opens it from the desktop. The introduction is pre-generated with the free MIT-licensed Chatterbox Nano model using Kash’s supplied recording; no cloning model, raw voice reference, inference server, microphone, or API key is shipped. Playback is off until Play, the transcript is available, and closing/minimizing pauses it. Narration and background music pause each other to avoid overlapping audio. A load error leaves the full transcript and text guide available.
+
+This is **not a conversational AI agent or Kash responding live**. Topic matching is limited and unmatched questions get an honest fallback. The raw reference and generation workspace stay outside this repository.
 
 Music contains two original 32-second synthesized instrumental sketches, no samples or commercial songs, released under CC0. Play/pause, previous/next, seek, volume, and failure states work without autoplay. Closing the player leaves explicitly started music playing; reopen and Pause to stop. Only volume persists, never forced playback. Music sources: `tools/compose_music.py`; rebuilding audio requires Python 3 and ffmpeg, ordinary development does not.
 

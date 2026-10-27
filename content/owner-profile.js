@@ -99,6 +99,13 @@ export const ownerProfile = {
     {slug:'follow-the-question',title:'Different industries. Same question.',category:'Working notes',read:'2 min',intro:'Research, finance, and product work keep bringing me back to what people actually need.',body:['Scientific research taught me to investigate unfamiliar questions. Financial workflows made the importance of accuracy and reliability very concrete. Product work brought the user back into every decision.','The common thread is not a single industry. It is understanding a system, finding the friction inside it, and building something useful for the people working with it.','These are reflections on my experience, not claims about quantified business outcomes.']},
     {slug:'new-city-new-questions',title:'New city, same curiosity',category:'Side quests',read:'1 min',intro:'Twenty European countries during study abroad, and plenty of reasons to start a conversation.',body:['During study abroad, I traveled to 20 European countries. That is a self-reported personal travel count, not a professional credential.','I like exploring unfamiliar places, meeting people, and figuring things out as I go. It is also why client-facing roles and opportunities to travel appeal to me.','No future travel itinerary or private schedule is published here.']}
   ],
+  narration: {
+    src:'public/assets/voice/kash-introduction.mp3',
+    label:'AI-generated introduction in Kash’s cloned voice',
+    disclosure:'A pre-generated introduction made from Kash’s own voice sample using Chatterbox Nano. AI-generated, not a live conversation. Playback is off until you press Play.',
+    transcript:"Hi, I'm Kash. I'm a Berkeley Data Science student, a builder, and a self-proclaimed D1 yapper. I love meeting people and turning messy problems into useful things. Welcome to Kash OS.",
+    duration:13.12
+  },
   voiceAnswers: {
  intro:{label:'Give me the 30-second introduction',text:'Meet Kash Vinayak: a UC Berkeley Data Science student with an Economics minor, graduating in 2027. She has worked across scientific research, finance, AI, and product development. She is looking for client-facing FDE, analyst, associate, and technical consultant roles where she can investigate problems, build useful tools, and work with people.'},
  projects:{label:'What has Kash built?',text:'At Farallon, Kash built Python and Streamlit/Snowflake tools supporting reconciliation and verification. At Savorly, she contributed product planning, Figma design, and React Native development for a surplus-meals app. She also built an AI-assisted scam investigation tool in a technical challenge and hackathon context. Open Projects for the full scope and limitations.'},

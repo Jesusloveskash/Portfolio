@@ -29,7 +29,7 @@ Executed in the cloud workspace with Node 24.19.0 and system Chromium. Tests use
 
 ## Supplemental packaged-release verification
 
-`npm run test:release` serves the packaged dist site locally under `/Portfolio/`, matching the GitHub Pages project path. It verifies module/asset loading, static article navigation and OS hash restoration, search arrow navigation, browser refresh, speech read/stop/fallback controls, and audio volume/seek. This is a local release simulation, not a public deployment.
+`npm run test:release` serves the packaged dist site locally under `/Portfolio/`, matching the GitHub Pages project path. It verifies module/asset loading, static article navigation and OS hash restoration, search arrow navigation, browser refresh, opt-in cloned introduction and pause controls, and audio volume/seek. This is a local release simulation, not a public deployment.
 
 ## Earlier failures resolved
 
@@ -39,7 +39,7 @@ A generic ARIA label on the window layer was given a proper region role; a small
 
 - Production deployment and live GitHub Pages verification are intentionally not performed: owner review is required.
 - No external journal/social availability, article attribution, peer-review status, or independent résumé metrics are claimed verified. External links are user-supplied and qualified.
-- Browser voice support and voice-service availability vary; the scripted text fallback is verified. No actual generative voice agent, microphone, or voice clone exists.
+- The introduction is a pre-generated AI voice clone, not a live agent. Media failure retains a full transcript. No microphone or conversational inference service exists.
 - File-protocol opening is not supported for the ES-module build; use the HTTP server.
 - Automated axe checks and keyboard workflows do not replace a comprehensive screen-reader/manual accessibility audit. CSS viewport reflow approximates browser 200% zoom.
 - No unavailable demos, booking service, backend form delivery, or analytics were simulated.
@@ -47,3 +47,9 @@ A generic ARIA label on the window layer was given a proper region role; a small
 ## Berkeley wallpaper revision
 
 Owner requested the Campanile/campus in the existing warm Bay Area panorama. Revised wallpaper generated natively, optimized, and inspected in Day/Night/Dark desktop and phone screenshots. The phone crop retains Berkeley. `npm run build`, `npm run check`, and the clean desktop/mobile review screenshot script pass after the asset-only revision. Existing app behavior is unchanged; the full interaction suite was not redundantly rerun for this wallpaper change.
+
+## Cloned-introduction integration
+
+The user accepted the free pre-generated introduction plus scripted text guide. Added a 13-second, opt-in MP3 labeled AI-generated, transcript, and “Hear from Kash” launcher. Raw references, conditioning audio, models, and generation logs remain outside the repository. Closing/minimizing pauses narration; narration and music pause each other. Scripted answers are text-only.
+
+`npm run check`, `npm run build`, the full 19-group browser suite (including all 20 app accessibility checks and nine viewports), and the packaged /Portfolio/ release checks pass. `npm run test:voice` separately exercises real playback, no autoplay, AI disclosure/transcript, minimize/close pause, music coordination, desktop/phone layout, audio MIME, and an actual aborted media request with persistent transcript fallback. An error-state race was fixed so a trailing pause event cannot hide the load-error message.

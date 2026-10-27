@@ -30,3 +30,9 @@ DM Sans and DM Serif Display: self-hosted Latin webfonts obtained from the @font
 The supplied October 24 résumé has a web copy with only its phone number redacted, saved to public/assets/documents/Kash-Vinayak-Resume.pdf. It retains the approved email and all qualifications. The source upload is unchanged. Transcript, student IDs, other private source files, and source portrait metadata are not published. No employer logos or actual internal screenshots are used.
 
 Wallpaper revision: owner requested a visible Berkeley campus/Campanile. The native image tool edited the prior approved-direction artwork, preserving its warm palette and landscape composition. This is a stylized Bay Area panorama, not a cartographically exact viewpoint. Phone crop shifts to 65% to retain the landmark. Original prior master remains in cloud generated-image history.
+
+## Owner-approved cloned introduction
+
+`public/assets/voice/kash-introduction.mp3`: 13.12-second pre-generated AI introduction using the owner-supplied voice sample and Chatterbox Nano. User accepted the no-cost cloned-introduction plus text-guide approach in chat. The raw 43-second recording, conditioning WAV, model weights, inference environment, and private generation logs remain outside the repository. Only the resulting MP3 is included in the review branch; main/public replacement deployment still requires review.
+
+Model: ResembleAI/chatterbox-nano at 71ccd1d0081b430592cea481f4307e764e07bc64, public/ungated with MIT license per model metadata. Official code: 5de7a54aa4e5e2baadb0182dde554908b48b85c2. Generated on CPU with torch 2.6.0; model-file SHA-256/Git blob checks verified. Model watermark retained in source output; MP3 is a review/web derivative. No paid API or hosting subscription is used. Clearly labeled AI-generated; not a live conversation. Transcript is centralized in ownerProfile.narration.
