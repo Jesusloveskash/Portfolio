@@ -1,6 +1,21 @@
 {
-  "name": "portfolio",
+  "name": "kash-os",
   "version": "1.0.0",
   "private": true,
-  "scripts": { "dev": "node server.mjs", "start": "node server.mjs", "check": "node --check server.mjs && node --check script.js" }
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "build": "node tools/generate_pages.mjs && node tools/audit.mjs && node tools/package.mjs",
+    "check": "node --check server.mjs && node --check script.js && node --check content/owner-profile.js && node --check content/apps.js && node tools/audit.mjs",
+    "test": "node tests/browser.mjs",
+    "test:release": "node tests/release.mjs"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
+    "playwright": "1.64.1"
+  }
 }
