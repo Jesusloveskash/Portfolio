@@ -4,7 +4,7 @@ All original illustrations were generated with the native image-generation tool 
 
 | Public asset | Dimensions | Purpose / generation brief | Source master |
 |---|---|---|---|
-| illustrations/wallpaper.webp | 1536 × 1024 | Original editorial gouache Bay Area landscape, sage hills, warm ivory sky, peach flowers; no people/text/logos | exec-6769c10f-e648-4caf-83c5-459f9c713c57.png |
+| illustrations/wallpaper.webp | 1536 × 1024 | Original editorial gouache Bay Area landscape, Berkeley campus and Campanile, sage hills, warm ivory sky, peach flowers; no people/text/logos | exec-eec2f3f3-cd1d-42bf-9753-488a0325a695.png |
 | illustrations/kash-portrait.webp | ≤512 × 512 | Illustrated Kash portrait based solely on owner-supplied photo: smile, dark wavy hair, white top, earrings; transparent, no invented setting | exec-2a16a9fd-bdb6-4f6c-a8d1-00cc3e239ab6.png |
 | illustrations/pip-states.webp | 640 × 640 | Original 2×2 companion sheet: curious/idle, happy/wave, sad, excited; green seed-shaped traveler with small gold satchel | exec-c247ffda-45a7-49f2-bcf5-d584add5fb31.png |
 | icons/apps.webp | 1024 × 1024 | Original 4×4 icon family: folders, document, map, notebook, mail, microscope, browser, tools, conversation, cases, award, calendar, voice, sticky, leaf game, palette | exec-ac0cf2d3-0bda-4023-acc0-0456a1779b04.png |
@@ -28,3 +28,5 @@ DM Sans and DM Serif Display: self-hosted Latin webfonts obtained from the @font
 ## Documents and privacy
 
 The supplied October 24 résumé has a web copy with only its phone number redacted, saved to public/assets/documents/Kash-Vinayak-Resume.pdf. It retains the approved email and all qualifications. The source upload is unchanged. Transcript, student IDs, other private source files, and source portrait metadata are not published. No employer logos or actual internal screenshots are used.
+
+Wallpaper revision: owner requested a visible Berkeley campus/Campanile. The native image tool edited the prior approved-direction artwork, preserving its warm palette and landscape composition. This is a stylized Bay Area panorama, not a cartographically exact viewpoint. Phone crop shifts to 65% to retain the landmark. Original prior master remains in cloud generated-image history.

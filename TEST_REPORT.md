@@ -43,3 +43,7 @@ A generic ARIA label on the window layer was given a proper region role; a small
 - File-protocol opening is not supported for the ES-module build; use the HTTP server.
 - Automated axe checks and keyboard workflows do not replace a comprehensive screen-reader/manual accessibility audit. CSS viewport reflow approximates browser 200% zoom.
 - No unavailable demos, booking service, backend form delivery, or analytics were simulated.
+
+## Berkeley wallpaper revision
+
+Owner requested the Campanile/campus in the existing warm Bay Area panorama. Revised wallpaper generated natively, optimized, and inspected in Day/Night/Dark desktop and phone screenshots. The phone crop retains Berkeley. `npm run build`, `npm run check`, and the clean desktop/mobile review screenshot script pass after the asset-only revision. Existing app behavior is unchanged; the full interaction suite was not redundantly rerun for this wallpaper change.
