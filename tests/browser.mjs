@@ -12,7 +12,7 @@ try{
  for(let i=0;i<60;i++){try{const r=await fetch(base);if(r.ok)break}catch{}await new Promise(r=>setTimeout(r,100));if(i===59)throw Error('Server did not become ready')}
  browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',headless:true,args:['--no-sandbox','--autoplay-policy=user-gesture-required']});
  const context=await browser.newContext({viewport:{width:1440,height:900}});const page=await context.newPage();page.on('pageerror',e=>errors.push(e.message));
- const openExtra=async id=>{await page.locator('#all-apps').click();await page.locator('[data-app=library] [data-open='+id+']').click();await page.locator('[data-app=library] .close-control').evaluate(e=>e.click())};
+ const openExtra=async id=>{if(await page.locator('[data-app='+id+']').isVisible())return;await page.locator('#all-apps').click();await page.locator('[data-app=library] [data-open='+id+']').click();await page.locator('[data-app=library] .close-control').evaluate(e=>e.click())};
  const badResponses=[];page.on('response',r=>{if(r.url().startsWith(base)&&r.status()>=400)badResponses.push(r.status()+' '+r.url())});
  await page.goto(base);await page.getByRole('button',{name:'Skip intro'}).click();await page.waitForTimeout(400);assert(await page.locator('#boot').isHidden());await page.evaluate(()=>document.fonts.ready);pass('Boot skips and desktop loads');
  await page.screenshot({path:screenshots+'/desktop-day.png'});

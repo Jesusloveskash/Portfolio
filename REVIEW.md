@@ -67,3 +67,11 @@ The overview now uses a single-column directory grouped into Selected work, Buil
 `npm run test:projects` checks grouping, search, filters, empty state, keyboard opening, back-state retention, phone/desktop bounds, and all three themes with WCAG A/AA scans.
 
 Next useful owner assets: real Cinderella/FreeNow interface screenshots and approved repository/demo URLs, plus a specific walkthrough of a user flow. No unprovided links, screenshots, or additional outcome metrics were invented.
+
+## Recruiter usability update
+
+Project links now use `#projects/<id>` and work on direct entry, reload, and browser Back/Forward. Case pages include copy-link controls and a selectable-link fallback when clipboard access fails. Project entries are real links, supporting opening in a new tab. App navigation also updates the URL.
+
+About leads with professional positioning and personal text, with a supporting portrait alongside on desktop and below on mobile. Travel filters and stories precede an optional photo album; the Scotland story retains its matching photograph. Public introductions no longer show internal owner-approval or editorial instructions. Actual development statuses and evidence limitations remain.
+
+`npm run test:usability` covers direct URLs, copied links, browser history, content order, album behavior, and mobile/desktop accessibility. New photos, demo URLs, and research/event details still depend on owner-supplied evidence; no replacements are fabricated.
